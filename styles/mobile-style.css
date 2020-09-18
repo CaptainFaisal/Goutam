@@ -1,0 +1,152 @@
+
+/* breadcrumb stye Start */
+
+.breadcrumb{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+.breadcrumb> li + li:before{
+    content: ">\00a0";
+    color: #cccccc;
+}
+@media(max-width:991px){
+    .breadcrumb{
+        padding: 8px 0px;
+        text-align: center;
+    }
+}
+
+
+/* breadcrumb stye end */
+
+
+/* mobile brand style start */
+
+#content .panel.sidebar-menu{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+#content .panel.sidebar-menu ul.nav.category-menu{
+    margin-bottom: 20px;
+}
+#content .panel.sidebar-menu ul.nav.category-menu li a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#content .panel.sidebar-menu h3{
+    padding: 5px;
+    margin: 0px;
+}
+
+/* mobile brand style end */
+
+
+/* mobile brand product style start */
+@media(max-width:768px){
+    .center-responsive{
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+@media(max-width:550px){
+    .center-responsive{
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+
+/* mobile brand product style end */
+
+.box {
+    background: #fefefe;
+    padding: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#content #productMain{
+    margin-bottom: 30px;
+}
+
+#content #productMain .price{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#content #mainImage{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+}
+
+#content #thumbs a{
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+}
+
+#content .headline{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.single {
+    width: 220px;
+}
+
+
+
+.product {
+    text-align: center;
+    background: white;
+    padding: 1px;
+    border: solid 1px aqua;
+    margin-bottom: 5px;
+}
+
+.product h3 {
+    font-size: initial;
+}
+
+.product:hover {
+    border: solid 1px #e66406;
+}
+
+
+.center-responsive{
+    width: 210px;
+}
+
+.price {
+    font-size: 20px;
+    color: #7938d9;
+}
+
+
+.details-down {
+    width: 205px;
+}
+
+
+
+
+
+ 
+
+
+
